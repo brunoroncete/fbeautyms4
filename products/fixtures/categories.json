@@ -31,36 +31,7 @@
        "pk":5,
        "model":"products.category",
        "fields":{
-          "name":"essentials"
-        }
-    },
-    {
-       "pk":6,
-       "model":"products.category",
-       "fields":{
-          "name":"jeans"
-        }
-    },
-    {
-       "pk":7,
-       "model":"products.category",
-       "fields":{
-          "name":"kitchen_dining"
-          
-       }
-    },
-    {
-       "pk":8,
-       "model":"products.category",
-       "fields":{
           "name":"new_arrivals"
          }
     },
-    {
-       "pk":9,
-       "model":"products.category",
-       "fields":{
-          "name":"shirts"
-        }
-    }
- ]
+]
