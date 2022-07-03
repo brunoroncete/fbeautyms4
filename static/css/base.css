@@ -38,6 +38,18 @@ body {
     color: black;
 }
 
+.btn-outline-black {
+    background: black;
+    color: white;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
 #logo-display {
     display: flex;
     justify-content: flex-end;
