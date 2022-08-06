@@ -15,7 +15,6 @@
  - I want the main purpose of the site to be clear so that I immediately know what the site is intended for upon entering.
  - I want to view a list of products or look for an individual item by its category.
  - I want to be able to view individual product details, product Image, the price and the product description.
- - I want to sign up to the site to enable myself for full access to it's service and also to receive email newsletter and latest updates.
  - I want to be able to view order confirmation and save my contact details in my registered Profile
  - I want to easily access my previous orders.
  - I want to be able to contact the store of the website incase I have any issues or questions.
@@ -31,10 +30,8 @@
 - Forms for the admin to add new or modify existing products
 
 # Wireframes
-Wireframes are my initial design, so you may notice that the final website design does not contain everything that was planned at the start of the project. Some missing features are possible future improvements for the project. They may be implemented at a later stage.
-Wireframes for the desktop and tablet uses same layout, while on mobile screen layout is rearranged.
- - [Wireframes_desktop_tablet.pdf](./readme_media/wireframes.pdf)
- - [Wireframe-mobile](./readme_media/mobile.png)
+ - [Wireframes_desktop_tablet.pdf](#)
+ - [Wireframe-mobile](#)
 
 # Database Schema
 I started planning the database after I have done my wireframes to justify which fields I would require and what collections I would have to use. After the initial discussion with my mentor, I have settled with the current database schema.
@@ -49,7 +46,7 @@ I started planning the database after I have done my wireframes to justify which
 ---
 # Deployment
 
-Detailed deployment can be found [here](https://github.com/alexandergrib/ms4-store/blob/main/readme_media/docs/deployment.md)
+Detailed deployment can be found [here](https://github.com/brunoroncete/fbeautyms4/readme_files/docs/deployment.md)
 
 
 ---
@@ -102,62 +99,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Testing User Stories from User Experience (UX) Section
 
-### First Time Visitor Goals
+### Customer Goals
 
-1. As a Shopper, I want to be able to view a list of products, so that I can select some to purchase.
+1. As a customer, I want the main purpose of the site to be clear so that I immediately know what the site is intended for upon entering.
+     1. It is clear that the web site is a store.
 
-     1. Upon entering the site. The homepage navigation bar have links to list of products and categories, user have the option to view all products or search for a specific product. ![](./readme_media/homepage_screenshot.png)
+2. As a customer, I want to be able to view a list of products, so that I can select some to purchase.
+
+     1. Upon entering the site. The homepage navigation bar have links to list of products and categories, user have the option to view all products or search for a specific product.
 
     
-2. As a Shopper, I want to be able to view individual product details, product Image, the price, the product description and the compatible cartridges.
-   1. By clicking on the featured product from the home page, or by viewing all products and selecting one uses can view detailed information about product <br> ![](./readme_media/product_detail_page.png)
+3. As a customer, I want to be able to view individual product details, product Image, the price, the product description and the compatible cartridges.
+   1. By clicking on the featured product from the home page, or by viewing all products and selecting one uses can view detailed information about product <br>
    
-3. As a Shopper, I want to look for testimonials to understand what other users think of the site and the service it renders.
-   1. By browsing all products or viewing detailed information about product user can view product rating which can be added by any registered user who has purchased this product![](./readme_media/reviews.png)
-   2. By navigating on to the review page user can read detailed review if other users who left the review decided to leave detailed comment.<br> ![](readme_media/detailed_review.png)
-   3. Logged in users or administrators can edit or delete review. <br>![](./readme_media/edit_delete_review.png) 
-
-4. As a Site User, I want to be able to register for an account and have a personalised user profile.
-
-   1. The Site User can register to view their personal order history and order confirmations, and save their contact details by clicking on My Account icon on the homepage top-right as shown on the screenshot. <br> ![](./readme_media/user_profile.png)
-
-5. As a First Time Visitor, I want to locate the site contact details in case I may need help about the site service.
+4. As a customer, I want to be able to view order confirmation and save my contact details in my registered Profile.
+   1. After loging in, selecting the option my profile, the user is able to check his orders and update his details.
+   
+5. As a customer, I want to easily access my previous orders.
        
-     1. The contact detail links is on the footer on every page of the site. ! <br> ![](./readme_media/footer.png)
-   
-
-### Returning User Goals
-
-1. As a Returning User, I want to see information about new products.
-
-   1. Returning user can find new or featured products on the home page or click on New Arrivals link on the navbar. <br> ![](./readme_media/featured_section.png) 
-    
-2. As a Returning Visitor, I want to find the best way to get in contact with the site owner with any questions I may have.
-
-   1. Returning Visitor can contact customer service through contact links on the footer of the site.
-   ![](./readme_media/contact_details_footer.png)
-       
-3. As a Returning User, I want to be able to log in to the site view my profile.
-   1. User can view profile in My account section of the Navbar <br>
-   ![](./readme_media/profile.png)
-
-
-### Frequent User Goals
-
-1. As a Frequent User, I want to browse the site to see if there are any changes, new deals and/or clearance items.
-
-   1. Frequent User can easily find this updates and contents on the home page. 
-   ![](./readme_media/featured_homepage.png)
-2. As a Frequent User, I want to see information about the most new arrivals and sales.
-
-   1. The Special offers section is on the Navbar with links to the site New arrivals, deals and clearance.
-   <br>
-   ![](./readme_media/clearance_section.png)
-   
-3. As a Frequent User, I want to be able to sort products by price, category, or brand
-   1. Option for sorting products located under all products view <br> ![](./readme_media/sorting.png)
-   2. Users can select product quicly by selecting brand of the product in the footer. <br> ![](./readme_media/product_brands_footer.png)
-
+     1. In my profile the user is able to check all his previous orders <br>
+ 
 
 ## Further Testing
 
@@ -166,27 +127,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-## Code Testing
-
-## **_Detailed functional code testing can be viewed here [TESTING](https://github.com/alexandergrib/ms4-store/tree/main/readme_media/docs/testing.md)_**
-
----
-
 # Known Issues
 
-- Windows 11 affecting styles of the dropdown menu's, forcing them to have rounded corners ![img](./readme_media/dropdown_menu_issue.png)
-    * I was unable to fix this issue as this issue only occurs on Windows 11 and affected by windows itself. 
-    * I tried many things in css to change this view but nothing seemed to work.
-
-- When running django tests there are few errors shown: ![img](./readme_media/tests_errors.png)
-  - To fix this error I have to export STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY to make accessible in the terminal once they set, tests pass with no issues.
-
-- Functionality for searching cartridges not implemented
-  - Will be done ASAP after assessment completed.
-
-- Page pagination needed for the products page.
-  - pagination is less important for the MVP and would be implemented in the future.
-  
+######
 
 # Problems encountered
 
