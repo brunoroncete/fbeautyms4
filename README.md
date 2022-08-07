@@ -133,23 +133,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 # Problems encountered
 
-- When checkout with selected update profile user 'Full name' was saved a tuple like so: ```('User Name',)``` instead of ```User Name```
-  - **SOLVED** Problem was in the code where extra comma was added: ![Extra comma](./readme_media/bug_with_name.png)
-
-- When adding new cartridge with image uploaded and without selecting any related printer(even if it already highlighted in the box) cartridge won't get assigned to that printer.
-- When adding new cartridge without selecting image it works fine.
-  - As a temporary workaround, after saving new cartridge go to admin dashboard and reassign cartridge to the related printer. 
-  - **SOLVED** Found bug in saving form where I was calling  ```image.save()``` instead of main form ```form.save()```
-- W3 validator gave me warning:
-- ![The type attribute is unnecessary for JavaScript resources.](./readme_media/javascript_type_warning.png)
-- To **solve** it i removed all ```type=text/javascript``` from ```<script>``` tags
-- ``Duplicate ID delete-review-modal``. was found by markup validator
-  - Had to rewrite bootstrap modal to handle multiple buttons pointing to the same modal. Solution found in [Bootstrap documentation](https://getbootstrap.com/docs/5.0/components/modal/#varying-modal-content)
-- Search bar icon get shifted down on some pages
-   ![](readme_media/search_icon_shift.png)
-  - Fixed it by declaring .form-control and .btn styles to have font size set to 1.4 rem
-
----
+- ###
 
 # Credits
 
