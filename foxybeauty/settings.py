@@ -26,6 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['foxybeautyms4.herokuapp.com', 'localhost']
 
