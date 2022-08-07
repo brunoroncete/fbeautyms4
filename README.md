@@ -93,9 +93,9 @@ Detailed deployment can be found [here](https://github.com/brunoroncete/fbeautym
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](./readme_media/w3_html_check.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](./readme_media/w3_css_check.png)
--   [Lighthouse](https://https://developers.google.com/web/tools/lighthouse) - [Results](./readme_media/lighthouse.png)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](./readme_files/htmlindex.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](./readme_files/cssvalid.png)
+-   [Lighthouse](https://https://developers.google.com/web/tools/lighthouse) - [Results](./readme_files/lighthouse.png)
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -129,11 +129,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 # Known Issues
 
-######
+- Parse error on W3C CSS Validator. ![CSS_Error](./readme_files/cssvalid.png)
 
 # Problems encountered
 
-- ###
+- When trying to run developer server I was getting django errors. ![Django Errors] (./readme_files/djangoerror.png)
+- To **solve** it I added DEFAULT_AUTO_FIELD = 'django.db.models.AutoField' to settings.py.
+- The type attribute is unnecessary for JavaScript resources.
+- To **solve** it i removed all ```type=text/javascript``` from ```<script>``` tags
 
 # Credits
 
@@ -153,6 +156,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 # Acknowledgements
 
-- Student Care and Tutor at Code Institute for their support.
+- Student Care and Tutor at Code Institute for their support, specially the tutor Christine.
 - Deployment steps adapted to suit my project from [here](https://github.com/Abibubble/ms4-lead-shot-hazard)
 - Some code testing was adapted to suit my project from [here](https://github.com/Abibubble/ms4-lead-shot-hazard)
